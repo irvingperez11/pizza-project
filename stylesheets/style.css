@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+body{
+  background: url('https://cdn.vectorstock.com/i/composite/86,95/pizza-pattern-vector-1248695.jpg');
+  font-family: 'Philosopher', sans-serif;
+}
+
+div{
+  background-color: white;
+  position: absolute;
+  width: 330px ;
+  height: 500px;
+  padding: 10px;
+  z-index: 15;
+  top: 30%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+.pickle{
+  background-color: white;
+  position: absolute;
+  width: 300px ;
+  height: 650px;
+  padding: 10px;
+  z-index: 15;
+  top: 30%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+iframe{
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+form{
+  background-color: white;
+}

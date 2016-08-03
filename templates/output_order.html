@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <title>Pizza NYC</title>
+  </head>
+  <div class="pickle">
+  <body>
+    <h1>Pizza NYC</h1>
+    <h2>Best Pizza you will ever code</h2>
+
+    <h2>We got your order!</h2>
+    <p>Name: {{name_answer}}</p>
+    <p>Address: {{address_answer}} </p>
+    <p> Phone Number: {{phone_answer}} </p>
+    <p>Crust: {{ crust_answer }} </p>
+    <p>Size: {{ size_answer }} </p>
+    <p>Sauce: {{ sauce_answer }} </p>
+    <p>Are You Vegan? {{vegan_answer}}</p>
+    <p>Cheese: {{ cheese_answer }} </p>
+    <p>Toppings: {{ toppings_answer }} </p>
+
+    <p>Would you like you pizza to be vegan</p>
+    {% if vegan_answer == "on" %}
+      "yes"
+    {% else %}
+      "no"
+    {% endif %}
+    <h2>Our minions are starting to work on it. Your order number is #{{order}}</h2>
+    </div>
+  </body>
+  </div>
+</html>

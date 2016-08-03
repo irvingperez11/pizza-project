@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <title>Pizza NYC</title>
+  </head>
+  <div>
+    <body>
+      <div class="words">
+      <h1>Pizza NYC</h1>
+      <a href={{log_out_url}}></a>
+      <h2>Best Pizza you will ever code</h2>
+      <h3>Welcome {{nickname}}</h3>
+
+      <form method=post>
+          <p>Name: <input type="text" name="name"/></p>
+          <p>Address: <input type="text" name="address"/></p>
+          <p>Phone Number: <input type="text" name="phone"/></p>
+          <p>Crust Type: <input type="text" name="crust"/></p>
+          <p>Size: <input type="text" name="size"/></p>
+          <p>Sauce: <input type="text" name="sauce"/></p>
+          <p>Are You Vegan? <select><option value="Yes">Yes</option><option value="No">No</option></select></p>
+          <p>Cheese: <input type="text" name="cheese"/></p>
+          <p>Toppings: <input type="text" name="toppings"/></p>
+          <button type="submit">Place Order</button>
+          </div>
+      </form>
+      <script src="jquery.js"></script>
+    </body>
+  </div>
+</html>
